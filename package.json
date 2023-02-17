@@ -1,0 +1,21 @@
+{
+  "name": "pw-gmail",
+  "version": "1.0.0",
+  "description": "An example of Playwright end-to-end test with email confirmation",
+  "scripts": {
+    "test": "playwright test",
+    "format": "prettier . --write --list-different",
+    "lint": "prettier . --check"
+  },
+  "keywords": [],
+  "author": "Dmitrii Bormotov",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.30.0",
+    "dotenv": "^16.0.3",
+    "gmail-getter": "^1.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  }
+}
